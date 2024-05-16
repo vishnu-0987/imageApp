@@ -152,6 +152,18 @@
   font-weight: 600;
 }
 
+.hover-container p {
+  display: none;
+}
+
+.hover-container:hover p {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 0px;
+  width: 240px;
+}
+
 @media screen and (max-width: 767px) {
   .bg-container h1 {
     font-size: 30px;

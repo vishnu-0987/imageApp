@@ -130,7 +130,10 @@ class Home extends Component {
                 <Popup
                   modal
                   trigger={
-                    <img src={item.imgUrl} alt={item.alt} className="image" />
+                    <div className="hover-container">
+                      <img src={item.imgUrl} alt={item.alt} className="image" />
+                      <p>{item.alt}</p>
+                    </div>
                   }
                 >
                   {(close) => (
